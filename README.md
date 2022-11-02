@@ -31,6 +31,7 @@ ALPHAVANTAGE_API_KEY="_________"
 
 ## Usage
 
+
 Run an example script:
 
 ```sh
@@ -45,11 +46,19 @@ python -m app.unemployment
 ```
 
 or pass env var from command line:
-ALPHAVANTAGE_API_KEY="abc123" python app/unemployment.py
+ALPHAVANTAGE_API_KEY="____" python app/unemployment.py
 
 Run stocks report:
 
 ```sh
 #python app/stocks.py
 python -m app.stocks
+```
+
+## Testing
+
+Run tests: 
+
+```sh
+pytest
 ```
