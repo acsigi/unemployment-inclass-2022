@@ -14,7 +14,7 @@ pytest
 sendgrid==6.6.0
 
 flask # <--- ADD FOR WEB APP
-#gunicorn
+gunicorn
 
 # using this to find and run our tests:
 pytest
